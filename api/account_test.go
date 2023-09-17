@@ -10,10 +10,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	mockdb "github.com/meng621/simpleBank/db/mock"
+	db "github.com/meng621/simpleBank/db/sqlc"
+	"github.com/meng621/simpleBank/db/util"
 	"github.com/stretchr/testify/require"
-	mockdb "github.com/techschool/simplebank/db/mock"
-	db "github.com/techschool/simplebank/db/sqlc"
-	"github.com/techschool/simplebank/db/util"
 	"go.uber.org/mock/gomock"
 )
 
