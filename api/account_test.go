@@ -12,7 +12,7 @@ import (
 
 	mockdb "github.com/meng621/simpleBank/db/mock"
 	db "github.com/meng621/simpleBank/db/sqlc"
-	"github.com/meng621/simpleBank/db/util"
+	"github.com/meng621/simpleBank/util"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

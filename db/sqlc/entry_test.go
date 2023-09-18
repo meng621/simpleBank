@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/meng621/simpleBank/db/util"
+	"github.com/meng621/simpleBank/util"
 	"github.com/stretchr/testify/require"
 )
 

@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	_ "github.com/lib/pq"
-	"github.com/meng621/simpleBank/db/util"
+	"github.com/meng621/simpleBank/util"
 )
 
 // const (
